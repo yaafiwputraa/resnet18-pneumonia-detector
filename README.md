@@ -110,7 +110,7 @@ print(f"Prediction: {prediction}, Confidence: {confidence:.2f}%")
 
 The model achieves the following performance metrics on the test set:
 - Accuracy: ~96%
-- F1 Score: ~95%
+- F1 Score: ~88%
 - ROC-AUC: ~98%
 
 ## Visualizations
@@ -122,7 +122,6 @@ The project generates several types of visualizations:
 3. **ROC Curve**: Displays the trade-off between sensitivity and specificity
 4. **Precision-Recall Curve**: Shows the trade-off between precision and recall
 5. **Prediction Visualization**: Sample images with predictions and confidence scores
-6. **GradCAM Visualization**: Heatmaps showing which regions of the X-ray influenced the model's decision
 
 ## Customization
 
@@ -159,11 +158,3 @@ This project uses the following major components:
 - PyTorch for deep learning framework
 - Pre-trained models from torchvision
 - pytorch-grad-cam for visualization
-
-## License
-
-[Specify your license here]
-
-## Contact
-
-[Your contact information]
