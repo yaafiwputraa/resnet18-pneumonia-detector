@@ -109,9 +109,8 @@ print(f"Prediction: {prediction}, Confidence: {confidence:.2f}%")
 ## Model Performance
 
 The model achieves the following performance metrics on the test set:
-- Accuracy: ~96%
 - F1 Score: ~88%
-- ROC-AUC: ~98%
+- ROC-AUC: ~90%
 
 ## Visualizations
 
