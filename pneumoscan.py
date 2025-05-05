@@ -3,9 +3,6 @@ PneumoScan: X-Ray Classification for Pneumonia Detection
 =======================================================
 This project fine-tunes a pre-trained ResNet-18 model to classify chest X-ray images
 into two categories: normal lungs and those affected by pneumonia.
-
-Author: [Your Name]
-Date: May 2025
 """
 
 # Import required libraries
